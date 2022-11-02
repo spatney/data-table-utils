@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='data_table_utils',
-    version='0.0.2',
+    version='0.0.3',
     author='Sachin Patney',
     author_email='admin@nope.com',
     description='Utils for data-table.com',
@@ -18,5 +18,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['data_table_utils'],
-    install_requires=['redis==4.3.4', 'pika==1.3.0'],
+    install_requires=['redis==4.3.4', 'pika==1.3.1'],
 )
